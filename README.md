@@ -6,8 +6,8 @@ Fridge data comes from a capture.txt file as described below.
 It will be in a format ready for charting with chart-js.
 
 ## API
-`/fridge/days' to return all unique days we have data for.
-`/fridge/chart?date=YYYY-MM-DD` to return frequency data to chart.
+* `/fridge/days` to return all unique days we have data for.
+* `/fridge/chart?date=YYYY-MM-DD` to return frequency data to chart.
 
 ## Capture.txt
 The capture.txt file will be generated from a raspberry pi.
