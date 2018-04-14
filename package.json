@@ -1,0 +1,14 @@
+{
+  "name": "fridge-api",
+  "version": "1.0.0",
+  "description": "Fridge API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Joseph Betts",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
