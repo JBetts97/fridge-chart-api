@@ -34,15 +34,22 @@ exports.buildDayChart = function(filename, dateMatch) {
 
 exports.buildDays = function(filename) {
 	var lines = fs.readFileSync(filename).toString().split('\n');
-	var days = [];
+	var result = []
+	var days = {}
+	var compare = []
 	for(var i=0; i<lines.length; i++) {
 		var fields = lines[i].split(',');
 		var startTime = fields[0];
 		var dateParts = startTime.split(' ');
 		var day = dateParts[0];
-		if (day && days.indexOf(day) < 0) {
-			days.push(day);
+		if (day && compare.indexOf(day) < 0) {
+			compare.push(day);
+			var dayElement = {
+				id: day,
+				dayDate: day
+			}
+			result.push(dayElement);
 		}
 	}
-	return days;
+	return result;
 }
