@@ -13,5 +13,13 @@
   },
   "dependencies": {
     "randomcolor": "^0.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBetts97/fridge-chart-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JBetts97/fridge-chart-api/issues"
+  },
+  "homepage": "https://github.com/JBetts97/fridge-chart-api#readme"
 }

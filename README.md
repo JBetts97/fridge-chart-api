@@ -5,6 +5,25 @@ Simple API using node and express to return Fridge data for charting.
 Fridge data comes from a capture.txt file as described below.
 It will be in a format ready for charting with chart-js.
 
+## Prerequisites
+
+You will need the following things properly installed on your computer.
+
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with npm)
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* `cd fridge-chart-api`
+* `npm install`
+
+## Running / Development
+
+* `npm app.js`
+* Try out the API by going to [http://localhost:3001/fridge/days](http://localhost:3001/fridge/days).
+
+
 ## API
 * `/fridge/days` to return all unique days we have data for.
 * `/fridge/chart?date=YYYY-MM-DD` to return frequency data to chart.
