@@ -14,13 +14,13 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/JBetts97/fridge-chart-api.git` this repository
 * `cd fridge-chart-api`
 * `npm install`
 
 ## Running / Development
 
-* `npm app.js`
+* `node app.js`
 * Try out the API by going to [http://localhost:3001/fridge/days](http://localhost:3001/fridge/days).
 
 
