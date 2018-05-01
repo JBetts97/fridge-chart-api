@@ -22,7 +22,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `node app.js`
-* Try out the API by going to [http://localhost:3001/fridge/days](http://localhost:3001/fridge/days).
+* Try out the API by going to [http://localhost:3001/fridge/doordays](http://localhost:3001/fridge/doordays).
 
 
 ## API
