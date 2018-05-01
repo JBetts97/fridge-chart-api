@@ -43,7 +43,7 @@ function dayChartData(filename, dateMatch, labelField) {
 	}
 }
 
-exports.buildDayChart = function(filename, dateMatch, labelField) {
+exports.buildDayChart = function(filename, dateMatch, labelField, keyLabel) {
 	var data = dayChartData(filename, dateMatch, labelField);
     var colours = randomColours(data.frequency.length);
 	var model = {
@@ -52,7 +52,7 @@ exports.buildDayChart = function(filename, dateMatch, labelField) {
 		chartData: {
 			labels: data.labels,
 			datasets: [{
-				label: "Frequency per hour",
+				label: keyLabel,
 				data: data.frequency,
 				backgroundColor: colours
 			}]
