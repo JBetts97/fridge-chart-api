@@ -26,7 +26,7 @@ You will need the following things properly installed on your computer.
 
 ## API
 * `/fridge/days` to return all unique days we have data for.
-* `/fridge/chart?date=YYYY-MM-DD` to return frequency data to chart.
+* `/fridge/charts/{date}` to return frequency data for the specified day to chart. 
 
 ## Capture.txt
 The capture.txt file will be generated from a raspberry pi.
